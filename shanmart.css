@@ -1,0 +1,25 @@
+body {
+    font-family: Arial;
+    background: #f5f5f5;
+}
+
+header {
+    background: #0B1F3A;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#products {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.card {
+    background: white;
+    padding: 10px;
+    text-align: center;
+}
